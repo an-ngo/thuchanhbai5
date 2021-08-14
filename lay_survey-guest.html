@@ -1,0 +1,110 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div:hover{
+            background-color: rgb(248, 248, 232);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Market Research Survey</h2>
+        <p>Please take a few moments to complete this satisfaction survey</p>
+    </div>
+    <hr>
+    <div>
+        <form action="lay_survey_guest.html" method="get">
+            <p><b>What is your age range?</b></p>
+            <select name="age" id="age" style="width: 320px; height: 20px;" >
+                <option value="18-24">18-24</option>
+                <option value="25-30">25-30</option>
+                <option value="31-36">31-36</option>
+            </select>
+            <p><b>What is your yearly income range?</b></p>
+            <select name="income" id="income" style="width: 320px; height: 20px;">
+                <option value="0-25k">$0-$25000</option>
+                <option value="25k-50k">$25000-$50000</option>
+                <option value="more50k">>$50000</option>
+            </select>
+        </form>
+    </div>
+        <div>    
+            p><b>Gender</b></p>
+            <input type="radio" name="gender" id="male"><label for="male">Male</label>
+            <input type="radio" name="gender" id="female"><label for="female">Female</label>
+        </div>
+        <div>
+            <p><b>Which of the following products have your purchased in the last 2 months. Please check all that apply</b></p>
+            <input type="checkbox" name="product" id="product1"><label for="product1">Product 1</label><br>
+            <input type="checkbox" name="product" id="product2"><label for="product2">Product 2</label><br>
+            <input type="checkbox" name="product" id="product3"><label for="product3">Product 3</label><br>
+        </div>
+        <div>
+            <p><b>How often would you use our new product?</b></p>
+            <input type="radio" name="often" id="daily"><label for="daily">Daily</label><br>
+            <input type="radio" name="often" id="weekly"><label for="weekly">Weekly</label><br>
+            <input type="radio" name="often" id="monthly"><label for="monthly">Monthly</label><br>
+        </div>
+
+        <div>
+            <p><b>What would you like to see in the new product</b></p>
+            <table>
+                <tr>
+                    <th rowspan="1" >$ </th>
+                    <th><input type="number" name="dollar" id="dollar"style="width: 100px; "> </th>
+                    <th>.</th>
+                    <th ><input type="number" name="cents" id="cents" style="width: 50px;"></th>
+
+                </tr>
+                <tr>
+                    <th> </th>
+                    <th align="left"><label for="dollar">Dollar</label></th>
+                    <th> </th>
+                    <th align="left"><label for="cents">Cents</label></th>
+                </tr>
+
+            </table>
+        </div>
+        <div >
+            <p><b>What features would you like to see in the new product.</b></p>
+            <textarea name="feature" id="feature" cols="70" rows="10"></textarea>
+        </div>
+        <div>
+            <p>Please rate your level of agreement with the following statements.</p>
+            <table border="1" cellspacing="0">
+                <tr style="background-color: rgb(243, 239, 239);" >
+                    <th> </th>
+                    <th><b>Strongly Disagree</b></th>
+                    <th><b>Disagree</b></th>
+                    <th>Agree</th>
+                </tr>
+                <tr>
+                    <td><b>Our products are high quality.</b></td>
+                    <th><input type="radio" name="1" id="1">1</th>
+                    <th><input type="radio" name="2" id="2">2</th>
+                    <th><input type="radio" name="3" id="3">3</th>
+                </tr>
+                <tr style="background-color: rgb(245, 241, 241);">
+                    <td><b>Our products are high quality.</b></td>
+                    <th><input type="radio" name="1" id="1">1</th>
+                    <th><input type="radio" name="2" id="2">2</th>
+                    <th><input type="radio" name="3" id="3">3</th>
+                </tr>
+                <tr >
+                    <td><b>Our products are high quality.</b></td>
+                    <th><input type="radio" name="1" id="1">1</th>
+                    <th><input type="radio" name="2" id="2">2</th>
+                    <th><input type="radio" name="3" id="3">3</th>
+                </tr>
+                
+            </table>
+        </div>
+        <input type="submit" name="submit" id="submit">
+        
+    </form>
+</body>
+</html>
