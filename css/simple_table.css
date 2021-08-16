@@ -1,0 +1,38 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+table{
+    border: 1px;
+}
+#table1{
+    border-collapse: collapse;
+    width: 100%;
+    color: blue;
+
+}
+p {
+    color: rgb(118, 118, 236);
+}
+td,th {
+    padding: 8px;
+    border: 1px solid rgb(46, 39, 39);
+}
+
+#table2{
+    border-collapse: collapse;
+    width: 100%;
+      
+}
+#th1,#td1 {
+    padding: 8px;
+    border: 0px solid rgb(46, 39, 39);
+}
+#th2 {
+    padding: 8px;
+    border: 1px solid rgb(46, 39, 39);
+    background-color: yellow;
+}
+#tr2{
+    background-color: #ffb618;
+}
