@@ -1,0 +1,20 @@
+body {
+    background-color: orange;
+}
+
+
+table {
+    
+    border-collapse: collapse;
+}
+
+.th1 {
+    background-color: white;
+}
+.th2 {
+    background-color: black;
+}
+th, .th1, .th2 {
+    width: 70px;
+    height: 70px;
+}

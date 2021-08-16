@@ -1,0 +1,33 @@
+h1 {
+    color: blue;
+    text-align: center;
+    width: 500px;
+}
+table {
+    border-collapse: collapse;
+    width: 500px;
+    height: 200px;
+}
+th {
+    border: 1px solid rgb(29, 27, 27);
+}
+.sun {
+    color: red;
+}
+.sat {
+    color: blue;
+}
+#th1, #th2 {
+    border: 0px solid rgb(12, 12, 12);
+}
+#th1.sun{
+    background-color: red;
+    color: white;
+}
+.sat#th1{
+    background-color: blue;
+    color: white;
+}
+#th1 {
+    background-color: orange;
+}
